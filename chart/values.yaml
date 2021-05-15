@@ -1,0 +1,11 @@
+pr: null
+environment: local
+
+image:
+  repository: nfler/markerworld
+  pullPolicy: Always
+  tag: latest
+
+service:
+  port: 80
+

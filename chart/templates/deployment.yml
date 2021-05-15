@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nimage-deployment
+  labels:
+    app: nimage
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nimage
+  template:
+    metadata:
+      labels:
+        app: nimage
+    spec:
+      containers:
+      - name: nimage
+        image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
+        imagePullPolicy: {{ .Values.image.pullPolicy }}
+        ports:
+          - containerPort: 4000
