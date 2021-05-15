@@ -20,4 +20,4 @@ spec:
           service:
             name: nimage-svc
             port:
-              number: 4000
+              number: {{ .Values.service.port }}

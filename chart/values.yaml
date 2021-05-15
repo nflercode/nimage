@@ -2,7 +2,7 @@ pr: null
 environment: local
 
 image:
-  repository: nfler/markerworld
+  repository: nfler/nimage
   pullPolicy: Always
   tag: latest
 
