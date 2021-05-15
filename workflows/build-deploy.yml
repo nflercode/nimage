@@ -1,5 +1,5 @@
 env:
-  APP_NAME: 'markerworld'
+  APP_NAME: 'nimage'
 
 name: CI/CD
 
