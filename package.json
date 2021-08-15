@@ -2,10 +2,10 @@
   "name": "nimage",
   "version": "1.0.0",
   "type": "module",
-  "description": "host images nfler",
+  "description": "host images mychips.online",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node src/index.js"
   },
   "author": "nflercode",
   "license": "ISC",
